@@ -1,0 +1,69 @@
+{
+  "name": "@boilerplate/app",
+  "version": "1.0.0",
+  "main": "__generated__/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "generate": "DEBUG=true graphql-codegen",
+    "generate:watch": "graphql-codegen --watch",
+    "lint": "eslint --cache --ext .ts,.tsx,.js ./",
+    "lint:fix": "eslint --fix --config .eslintrc.commit.js --cache --ext .ts,.tsx,.js ./",
+    "prettify": "prettier --write ./",
+    "pre-commit": "lint-staged",
+    "postinstall": "expo-yarn-workspaces postinstall"
+  },
+  "lint-staged": {
+    "*.(js|jsx|json|ts|tsx|html)|!graphql.tsx": [
+      "prettier --write"
+    ],
+    "*.(js|ts|tsx)|!graphql.tsx": [
+      "eslint --fix --config .eslintrc.commit.js"
+    ]
+  },
+  "expo-yarn-workspaces": {
+    "symlinks": [
+      "native-base"
+    ]
+  },
+  "dependencies": {
+    "@apollo/client": "3.5.5",
+    "@react-native-async-storage/async-storage": "1.15.14",
+    "@react-navigation/core": "5.16.1",
+    "@react-navigation/native": "5.9.8",
+    "@react-navigation/stack": "5.14.9",
+    "expo": "42.0.5",
+    "expo-status-bar": "1.1.0",
+    "native-base": "3.2.2",
+    "polished": "4.1.3",
+    "react": "17.0.2",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "3.9.0",
+    "react-native-svg": "12.1.1",
+    "styled-components": "5.3.3",
+    "styled-system": "5.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.0",
+    "@graphql-codegen/add": "3.1.0",
+    "@graphql-codegen/cli": "2.3.0",
+    "@graphql-codegen/typescript": "2.4.1",
+    "@graphql-codegen/typescript-operations": "2.2.1",
+    "@graphql-codegen/typescript-react-apollo": "3.2.2",
+    "@types/react": "17.0.37",
+    "@types/react-native": "0.66.6",
+    "eslint-plugin-react": "7.27.1",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "expo-yarn-workspaces": "1.6.0"
+  },
+  "private": true,
+  "workspaces": {
+    "nohoist": [
+      "eslint-import-resolver-node"
+    ]
+  }
+}
