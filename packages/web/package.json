@@ -29,7 +29,7 @@
   "license": "MIT",
   "dependencies": {
     "@apollo/client": "3.6.9",
-    "@chakra-ui/react": "1.8.8",
+    "@chakra-ui/react": "1.8.9",
     "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
     "@hookform/resolvers": "2.8.8",
