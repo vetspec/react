@@ -54,8 +54,8 @@
     "@graphql-codegen/typescript": "2.8.8",
     "@graphql-codegen/typescript-operations": "2.5.13",
     "@graphql-codegen/typescript-react-apollo": "3.3.7",
-    "@types/react": "17.0.53",
-    "@types/react-native": "0.71.3",
+    "@types/react": "17.0.87",
+    "@types/react-native": "0.73.0",
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
     "expo-yarn-workspaces": "1.7.0"
