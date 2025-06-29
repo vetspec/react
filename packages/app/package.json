@@ -56,8 +56,8 @@
     "@graphql-codegen/typescript-react-apollo": "3.3.7",
     "@types/react": "17.0.87",
     "@types/react-native": "0.73.0",
-    "eslint-plugin-react": "7.32.2",
-    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "4.6.2",
     "expo-yarn-workspaces": "1.7.0"
   },
   "private": true,
