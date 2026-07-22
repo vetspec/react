@@ -48,7 +48,7 @@
     "glob": "7.2.3",
     "graphql": "15.10.2",
     "graphql-fields": "2.0.3",
-    "graphql-scalars": "1.24.2",
+    "graphql-scalars": "1.25.0",
     "handlebars": "4.7.9",
     "ioredis": "4.30.0",
     "jsonwebtoken": "8.5.1",
