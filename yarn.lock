@@ -11848,10 +11848,10 @@ expo-pwa@0.0.109:
     commander "2.20.0"
     update-check "1.5.3"
 
-expo-status-bar@1.12.1:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/expo-status-bar/-/expo-status-bar-1.12.1.tgz#52ce594aab5064a0511d14375364d718ab78aa66"
-  integrity sha512-/t3xdbS8KB0prj5KG5w7z+wZPFlPtkgs95BsmrP/E7Q0xHXTcDcQ6Cu2FkFuRM+PKTb17cJDnLkawyS5vDLxMA==
+expo-status-bar@57.0.1:
+  version "57.0.1"
+  resolved "https://registry.yarnpkg.com/expo-status-bar/-/expo-status-bar-57.0.1.tgz#0a8ec1657fcd0987f9612ca411a0c3d002f0eaf0"
+  integrity sha512-Xwaq1gAoVRWx5dPG5VhT5RSbnI9OilhZnO5qoPBnUaBAa5VzRzfdS8q0/bsPt0jR2DKLtGuP0bQ6efMJ4RIMDg==
 
 expo-yarn-workspaces@1.7.0:
   version "1.7.0"
